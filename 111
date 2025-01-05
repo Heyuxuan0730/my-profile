@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>余柏緯的個人簡介</title>
+    <style>
+        body {
+            background-color: black;
+            color: white;
+            font-family: "新細明體", serif;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+        .container {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 20px;
+            max-width: 800px;
+            padding: 20px;
+            border: 1px solid white;
+            border-radius: 10px;
+        }
+        .item {
+            padding: 10px;
+            border: 1px solid white;
+            border-radius: 5px;
+        }
+        h1 {
+            grid-column: span 2;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>余柏緯的個人簡介</h1>
+        <div class="item">
+            <h2>關於我</h2>
+            <p>大家好，我是余柏緯，來自台中。白天我是學生，晚上則在滷味店打工。我熱愛視聽饒舌音樂，並且非常喜歡打撞球。</p>
+        </div>
+        <div class="item">
+            <h2>聯絡方式</h2>
+            <p>電話: 0912-171-328</p>
+        </div>
+        <div class="item">
+            <h2>興趣與愛好</h2>
+            <p>音樂: 我特別喜歡饒舌音樂，經常花時間聆聽和研究不同的饒舌歌手和作品。</p>
+        </div>
+        <div class="item">
+            <h2>運動</h2>
+            <p>撞球是我的另一個愛好，我喜歡在空閒時間與朋友一起打撞球。</p>
+        </div>
+    </div>
+</body>
+</html>
